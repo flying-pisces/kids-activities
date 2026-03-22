@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekend Fun: Andy & Katherine (Pleasanton 94588)</title>
+    <style>
+        :root {
+            --primary: #FF6B6B;
+            --secondary: #4ECDC4;
+            --accent: #FFE66D;
+            --dark: #2F2F2F;
+            --light: #F7FFF7;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--light);
+            color: var(--dark);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            border-bottom: 4px dashed var(--secondary);
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+        }
+        h1 { color: var(--primary); margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #666; }
+        
+        .section-title {
+            background: var(--secondary);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 10px;
+            display: inline-block;
+            margin-top: 30px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background: white;
+        }
+        th {
+            background-color: #f2f2f2;
+            text-align: left;
+            padding: 15px;
+            border-bottom: 2px solid var(--secondary);
+        }
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+            vertical-align: top;
+        }
+        tr:hover { background-color: #f9f9f9; }
+
+        .price-tag {
+            background: var(--accent);
+            padding: 2px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+        
+        .schedule {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .day-card {
+            background: #f0fdfa;
+            padding: 20px;
+            border-radius: 15px;
+            border-left: 5px solid var(--primary);
+        }
+        .day-card h3 { color: var(--primary); margin-top: 0; }
+        
+        .tips {
+            background: #fffbe6;
+            padding: 20px;
+            border-radius: 15px;
+            border: 1px solid #ffe58f;
+            margin-top: 30px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.8em;
+            color: #999;
+        }
+        .age-badge {
+            display: inline-block;
+            background: #e0f2fe;
+            color: #0369a1;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>🌟 Weekend Fun for Andy & Katherine 🌟</h1>
+        <p class="subtitle">Pleasanton, CA (94588) | March 21-22, 2026</p>
+    </header>
+
+    <h2 class="section-title">📅 Special Events This Weekend</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Event</th>
+                <th>When</th>
+                <th>Location</th>
+                <th>Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Pleasanton Farmers' Market</strong></td>
+                <td>Sat 9am - 1pm</td>
+                <td>W. Angela & Main St</td>
+                <td>Fresh kettle corn, live music, and samples! 🍿</td>
+            </tr>
+            <tr>
+                <td><strong>Sunol Repertory Theatre</strong></td>
+                <td>Sat 8:30pm / Sun 2:30pm</td>
+                <td>Sunol Glen School</td>
+                <td>"Too Many Ghosts" - Family-friendly play! 🎭</td>
+            </tr>
+            <tr>
+                <td><strong>SF WHPH Spring Kickoff</strong></td>
+                <td>All Weekend</td>
+                <td>Alameda Fairgrounds</td>
+                <td>Youth basketball tournament atmosphere. 🏀</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2 class="section-title">🚀 Top Activity Spots</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Activity</th>
+                <th>Type</th>
+                <th>Cost</th>
+                <th>Ages</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Mission Hills Park</strong><br><small>Giant concrete slide & playground</small></td>
+                <td>Outdoor</td>
+                <td><span class="price-tag">FREE</span></td>
+                <td><span class="age-badge">Andy 7</span> <span class="age-badge">Katherine 4</span></td>
+            </tr>
+            <tr>
+                <td><strong>Jumpity Bumpity</strong><br><small>Stoneridge Mall - Ocean themed play</small></td>
+                <td>Indoor</td>
+                <td><span class="price-tag">$15 - $20</span></td>
+                <td><span class="age-badge">Andy 7</span> <span class="age-badge">Katherine 4</span></td>
+            </tr>
+            <tr>
+                <td><strong>Alviso Adobe Community Park</strong><br><small>Rare history & easy trails</small></td>
+                <td>Outdoor</td>
+                <td><span class="price-tag">FREE</span></td>
+                <td><span class="age-badge">Andy 7</span> <span class="age-badge">Katherine 4</span></td>
+            </tr>
+            <tr>
+                <td><strong>Créatif Pleasanton</strong><br><small>Drop-in Art Studio</small></td>
+                <td>Creative</td>
+                <td><span class="price-tag">$15+</span></td>
+                <td><span class="age-badge">Andy 7</span> <span class="age-badge">Katherine 4</span></td>
+            </tr>
+            <tr>
+                <td><strong>Pump It Up</strong><br><small>Inflatable bounce houses</small></td>
+                <td>Active</td>
+                <td><span class="price-tag">$25</span></td>
+                <td><span class="age-badge">Andy 7</span> <span class="age-badge">Katherine 4</span></td>
+            </tr>
+            <tr>
+                <td><strong>Shadow Cliffs</strong><br><small>Hiking, lake, & picnics</small></td>
+                <td>Nature</td>
+                <td><span class="price-tag">$5/car</span></td>
+                <td><span class="age-badge">Andy 7</span> <span class="age-badge">Katherine 4</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2 class="section-title">💡 Suggested Itinerary</h2>
+    <div class="schedule">
+        <div class="day-card">
+            <h3>Saturday - Fresh Air & Art</h3>
+            <p><strong>Morning:</strong> Head to the <strong>Farmers' Market</strong> for breakfast treats and music.</p>
+            <p><strong>Midday:</strong> Visit <strong>Mission Hills Park</strong> for the giant slide (bring cardboard!).</p>
+            <p><strong>Afternoon:</strong> Creative time at <strong>Créatif</strong> painting ceramics or canvas.</p>
+        </div>
+        <div class="day-card">
+            <h3>Sunday - Active & Nature</h3>
+            <p><strong>Morning:</strong> Burn energy at <strong>Jumpity Bumpity</strong> or <strong>Pump It Up</strong>.</p>
+            <p><strong>Lunch:</strong> "Kids Eat Free" at <strong>Dickey’s Barbecue Pit</strong>.</p>
+            <p><strong>Afternoon:</strong> Relaxing walk at <strong>Alviso Adobe</strong> or <strong>Shadow Cliffs</strong>.</p>
+        </div>
+    </div>
+
+    <div class="tips">
+        <strong>Pro-Tips for Parents:</strong>
+        <ul>
+            <li>Bring <strong>cardboard</strong> for the Mission Hills slide—it makes it much faster!</li>
+            <li><strong>Jumpity Bumpity</strong> requires grip socks (can buy there for $2.50).</li>
+            <li>Check <strong>Pump It Up</strong>'s online calendar before going to ensure "Family Jump" is available.</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        Generated for Andy and Katherine's Weekend Adventure in Pleasanton.
+    </div>
+</div>
+
+</body>
+</html>
